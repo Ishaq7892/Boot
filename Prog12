@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Material Design for Bootstrap</title>
+   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Jumbotron -->
+    <div id="intro" class="p-5 text-center bg-warning">
+      <h1 class="mb-3 h2">GAMEINFORMER</h1>
+      <p class="mb-3">Best & free Game Informer</p>
+      <a class="btn btn-primary m-2" href="#!" role="button" rel="nofollow" data-mdb-ripple-init
+        target="_blank">Start</a>
+      <a class="btn btn-primary m-2" href="#!" target="_blank" data-mdb-ripple-init
+        role="button">Subscribe</a>
+    </div>
+    <!-- Jumbotron -->
+  <!--Main layout-->
+  <main class="my-5 bg-dark">
+    <div class="container bg-info">
+      <!--Section: Content-->
+      <section class="text-center">
+        <h4 class="mb-5"><strong>Latest posts</strong></h4>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-12 mb-4">
+            <div class="card">
+              <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+                <img src="img1.jpg" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Teenage Mutant Ninja Turtles</h5>
+                <p class="card-text">
+                 TMNT: Splintered Fate is a fun roguelike full of meaningful progression and engaging action, but it doesn't soar quite as high as the games that inspired it.
+                </p>
+                <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Read</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+                <img src="img2.jpg" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Nobody Wants to Die</h5>
+                <p class="card-text">
+                  Although I didn't wear my detective hat as tightly as I wanted to, I enjoyed my tour through this dystopian cyberpunk mystery...
+                </p>
+                <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Read</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+                <img src="img3.jpg" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Frank Stone</h5>
+                <p class="card-text">
+                  Watch a slice of the game's opening gameplay chapter.
+                </p>
+                <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Read</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-12 mb-4">
+            <div class="card">
+              <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+                <img src="img4.jpg" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">AI Limit</h5>
+                <p class="card-text">
+                  Watch us clash against mutated enemies in a ruined world in this upcoming action RPG.
+                </p>
+                <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Read</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+                <img src="img5.png" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Diablo IV: Vessel Of Hatred's</h5>
+                <p class="card-text">
+                 See this exciting new class in action in this gameplay showcase.
+                </p>
+                <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Read</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+                <img src="img6.jpg" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Star Wars Outlaws</h5>
+                <p class="card-text">
+                  We played Star Wars Outlaws for preview one final time before it comes out.
+                </p>
+                <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Read</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
