@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional CV</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <!-- Header -->
+        <div class="row">
+            <div class="col-md-8">
+		<img src="j_img.jpg" width="200" height="200" class="img-fluid rounded-circle" alt="Circular image">
+                <h1><b>Jeevan S Hegde</b></h1>
+                <p class="lead">Software Developer / Data Analyst</p>
+            </div>
+            <div class="col-md-4 text-md-right">
+                <p><b>Email:</b> jeevanshegde@gmail.com</p>
+                <p><b>Phone:</b> 91+ 6362817974</p>
+                <p><b>Location:</b> Mysore, Karnataka</p>
+            </div>
+        </div>
+        <hr>
+        
+        <!-- Profile Summary -->
+        <div class="row mb-4 bg-primary">
+            <div class="col">
+                <h2>Profile</h2>
+		<div class="card mb-3">
+		<div class="card-body">
+                <p>Innovative and analytical Software Developer and Data Analyst with a robust background in designing, developing, and maintaining software applications, coupled with extensive experience in data analysis, visualization, and interpretation. Adept at leveraging technology to solve complex problems and deliver data-driven insights that enhance business decision-making.</p>
+		</div>
+		</div>
+            </div>
+        </div>
+        <hr>
+
+	<!-- Education -->
+        <div class="row mb-4 bg-secondary">
+            <div class="col ">
+                <h2>Education</h2>
+                <div class="mb-4">
+                    <h5>Bachelor of Engineering</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">University of Tech | 2022 - 2026</h6>
+                    <p class="card-text">Graduated with honors, focusing on software engineering and data structures.</p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        
+        <!-- Work Experience -->
+        <div class="row mb-4 bg-warning">
+           <div class="col">
+                <h2>Work Experience</h2>
+		  <div class="card mb-3 ">
+                <div class="card-body text-dark">
+                    <h5 class="card-title>Manager</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Techsoft Pvt.Ltd - Bangalore,India | Jan 2020 - Present</h6>
+		    <p class="card-text">Responsible for developing and maintaining web applications using modern technologies.</p>
+                </div>
+		</div>
+            </div>
+        </div>
+        <hr>
+        
+        <!-- Skills -->
+        <div class="row">
+            <div class="col">
+                <h2 class="text-dark">Skills</h2>
+                <ul>
+                   <li class="list-group-item">Programming Languages: Python, JavaScript, Java</li>
+                    <li class="list-group-item">Frameworks: React, Node.js, Django</li>
+                    <li class="list-group-item">Tools: Git, Docker, Jenkins</li>
+                    <li class="list-group-item">Databases: MySQL, PostgreSQL, MongoDB</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        
+        <!-- Footer -->
+        <div class="row">
+            <div class="col text-center">
+               <div class="text-center p-3 bg-info text-white">&copy; 2024 Company. All rights reserved.</div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
