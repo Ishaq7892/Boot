@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap 5 Demo</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="mb-4">Bootstrap 5.0 Demo</h1>
+
+    <!-- Images Section -->
+    <section>
+      <h2>Images</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="D:/Wallpapers/abc.jpg" class="img-fluid rounded" alt="Responsive image">
+          <p>Responsive image with rounded corners</p>
+        </div>
+        <div class="col-md-4">
+          <img src="D:/Wallpapers/om.jpg" class="img-thumbnail" alt="Thumbnail image">
+          <p>Thumbnail image</p>
+        </div>
+        <div class="col-md-4">
+          <img src="D:/Wallpapers/nature.jpg" class="img-fluid rounded-circle" alt="Circular image">
+          <p>Circular image</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cards Section -->
+    <section class="mt-5">
+      <h2>Cards</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Card image">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Card image">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Card image">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gutters Section -->
+    <section class="mt-5">
+      <h2>Gutters</h2>
+      <div class="row gy-3">
+        <div class="col-md-4">
+          <div class="p-3 border bg-light">Custom column padding with gutters</div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-3 border bg-light">Custom column padding with gutters</div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-3 border bg-light">Custom column padding with gutters</div>
+        </div>
+      </div>
+
+        <div class="row gx-2">
+        <div class="col-md-4">
+          <div class="p-2 border bg-light">Custom column padding with gutters</div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-2 border bg-light">Custom column padding with gutters</div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-2 border bg-light">Custom column padding with gutters</div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
